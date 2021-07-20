@@ -1,5 +1,6 @@
 import Vue from "vue";
 import Vuex from "vuex";
+
 import messages from "./messages";
 import rooms from "./rooms";
 import user from "./user";
@@ -11,9 +12,7 @@ const store = new Vuex.Store({
   state: {},
   mutations: {},
   actions: {
-    checkAuth(){
-
-    }
+    checkAuth() {}
   },
   modules: {
     messages,
