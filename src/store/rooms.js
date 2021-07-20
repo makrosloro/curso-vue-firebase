@@ -1,5 +1,5 @@
 const state = {
-    rooms: []
+  rooms: []
 };
 
 const mutations = {};
@@ -7,9 +7,8 @@ const mutations = {};
 const actions = {};
 
 export default {
-    namespaced: true,
-    state,
-    mutations,
-    actions
+  namespaced: true,
+  state,
+  actions,
+  mutations
 };
-

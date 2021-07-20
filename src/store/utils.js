@@ -1,7 +1,6 @@
 const actions = {};
 
 export default {
-    namespaced: true,
-    actions
+  namespaced: true,
+  actions
 };
-
